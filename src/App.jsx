@@ -1,13 +1,28 @@
-// import SearchBar from './components/SearchBar'
-import SearchBar from "./components/SearchBar/SearchBar"
-function App() {
-  
+import { Component } from "react"
 
-  return (
-    <>
-      <SearchBar/>
-    </>
-  )
+
+
+import SearchBar from "./components/SearchBar/SearchBar"
+import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn"
+
+
+
+
+
+export default class App extends Component {
+  
+render(){
+
+  <>
+    <SearchBar/>
+
+  <LoadMoreBtn/>
+  </>
+
 }
 
-export default App
+};
+
+
+
+
