@@ -4,7 +4,7 @@ import { Component } from "react"
 
 import SearchBar from "./components/SearchBar/SearchBar"
 import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn"
-
+import ImageGallery from "./components/ImageGallery/ImageGallery"
 
 
 
@@ -15,8 +15,8 @@ render(){
 
   <>
     <SearchBar/>
-
-  <LoadMoreBtn/>
+    <ImageGallery/>
+    <LoadMoreBtn/>
   </>
 
 }
